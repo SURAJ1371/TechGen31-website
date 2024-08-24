@@ -1,5 +1,5 @@
 # TechGen31-website
-Designed to provide online education related to technical field
+Designed to link YouTube video contents providing online education related to technical field
 
   WEBSITE code is written below:
 
