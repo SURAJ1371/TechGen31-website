@@ -1,5 +1,5 @@
 # TechGen31-website
-Designed to link YouTube video contents providing online education related to technical field
+Designed to link YouTube video contents providing online education related to technical field. Through this website anyone can arrange and embed YouTube videos in a single website, so that there is no need of searching them separately, just open a single website and get your required video.
 
   WEBSITE code is written below:
 
