@@ -1,0 +1,30 @@
+<h3>Our Location</h3>
+    <!-- Embedded Google Map -->
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345096194!2d144.9537353153183!3d-37.81621897975171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf5773e1d4bcb02b1!2sFederation%20Square!5e0!3m2!1sen!2sau!4v1600922924968!5m2!1sen!2sau" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            aria-hidden="false" 
+            tabindex="0">
+        </iframe>
+    </div>
+
+ Styling the Map :
+.map-container {
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
