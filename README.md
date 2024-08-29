@@ -13,13 +13,16 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
-            color: #333;
-            background-color: #f4f4f4;
+            color:rgb(34, 26, 26);
+            background-image: url('st.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
 
         /* Header Styles */
         header {
-            background: linear-gradient(135deg, #5e72eb, #ad1dd8);
+            background: linear-gradient(135deg, #0f07a2, #bf4ae3);
             color: #fff;
             padding: 20px 0;
             text-align: center;
@@ -169,6 +172,20 @@
             background: #4b60d1;
         }
 
+        .map-container {
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+}
+
+.map-container iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 400px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
         /* Footer Styles */
         footer {
             background: #333;
@@ -250,6 +267,20 @@
 
                 <button type="submit">Send Message</button>
             </form>
+            <h3>Our Location</h3>
+            <!-- Embedded Google Map -->
+            <div class="map-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3580.528777365038!2d85.86235467464552!3d26.179471891217865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39edb75b85cc6827%3A0x6323aca3b97a9fe1!2sDarbhanga%20College%20of%20Engineering%2C%20Darbhanga!5e0!3m2!1sen!2sin!4v1724596788414!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                    width="600" 
+                    height="450" 
+                    style="border:0;" 
+                    allowfullscreen="" 
+                    aria-hidden="false" 
+                    tabindex="0">
+                </iframe>
+            </div>
+
         </section>
     </main>
 
@@ -257,7 +288,6 @@
     <footer>
         <p>&copy; 2024 TechGen31. All rights reserved. | <a href="#privacy">Privacy Policy</a></p>
     </footer>
-
     <!-- JavaScript -->
     <script>
         document.getElementById('contact-form').addEventListener('submit', function(e) {
@@ -266,5 +296,7 @@
             this.reset();
         });
     </script>
+
+   
 </body>
 </html>
